@@ -75,6 +75,7 @@ main() {
             arch=arm64
             kernel="${kversion}-arm64"
             deps=(libcrypt1:"${arch}")
+            ncurses="=6.2+20201114-2"
             ;;
         armv7)
             arch=armhf
